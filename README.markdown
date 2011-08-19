@@ -34,3 +34,7 @@ Sample usage:
       "gdata.columns.mapping" = "day,count,class,method,thrown"
     )
     ;
+
+If you are using Amazon's Elastic Mapreduce, you can add the jar file as follows:
+
+    add jar s3://com-bizo-public/hive/storagehandler/gdata-storagehandler-0.1.jar ;
